@@ -5,7 +5,13 @@
   force = true
 
 [[redirects]]
+  from = "/docs/guides/getting_started"
+  to = "https://docs.redpanda.com/redpanda-connect/guides/getting_started/"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "https://docs.redpanda.com/redpanda-connect/about"
-  status = 301
+  status = 302
   force = true
