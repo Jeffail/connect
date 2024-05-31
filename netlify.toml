@@ -11,6 +11,11 @@
   force = true
 
 [[redirects]]
+  from = "/docs/*"
+  to = "https://docs.redpanda.com/redpanda-connect/:splat"
+  status = 301
+
+[[redirects]]
   from = "/*"
   to = "https://docs.redpanda.com/redpanda-connect/about"
   status = 302
